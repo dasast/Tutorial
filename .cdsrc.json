@@ -3,7 +3,12 @@
       "auth": {
         "passport": {
           "users": {
-            "risk.viewer@tester.sap.com": "...",
+            "risk.viewer@tester.sap.com": {
+              "password": "initial",
+              "ID": "risk.viewer@tester.sap.com",
+              "roles": [
+                "RiskViewer"
+              ],
             "risk.manager@tester.sap.com": {
               "password": "init",
               "ID": "dasa",
